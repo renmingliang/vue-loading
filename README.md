@@ -3,7 +3,9 @@
 > Loading自定义组件
 
 	针对vue进行组件拓展练习
-	在此特别感谢参与mini-ui中toast的[模块示例](https://github.com/ElemeFE/vue-toast-mobile)
+
+在此特别感谢参与mini-ui中toast的[模块示例](https://github.com/ElemeFE/vue-toast-mobile)
+
 ## Usage
 ```
 默认加载中： Load()
@@ -16,7 +18,7 @@
 ```
 
 ## Screenshot
-![示例](screenshot/gif.gif)
+![示例](screenshot/GIF.gif)
 
 
 ## API
