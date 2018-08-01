@@ -1,0 +1,102 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address,button, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:100%;
+  font-weight:normal;
+  vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section{
+  display:block;
+}
+blockquote, q{
+  quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after{
+  content:none;
+}
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+
+/* custom */
+body, html{
+  width: 100%;
+  height: 100%;
+  font-size: .24rem;
+  line-height: 1;
+  margin: auto;
+  color: #7e4848;
+  background: #ebddce;
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+}
+a{
+  backface-visibility:hidden;
+  text-decoration:none;
+}
+input[type='button'],button{
+  outline:0;
+}
+input[type='radio'],[type='checkbox'],textarea{
+  -webkit-appearance: none;
+  vertical-align: middle;
+  outline: none;
+}
+img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+li{
+  list-style:none;
+}
+
+/*定义为flexbox的"父元素"*/
+.flex{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+/*垂直居中*/
+.flex-center{
+  /*子元素沿主轴对齐方式居中*/
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  /*子元素沿交叉轴对齐方式居中*/
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+}
+/*指定主轴的伸缩流方向是纵向的*/
+.flex-ver{
+  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+}

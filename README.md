@@ -3,7 +3,7 @@
 > Loading自定义组件
 
 	针对vue进行组件拓展练习
-
+	在此特别感谢参与mini-ui中toast的[模块示例](https://github.com/ElemeFE/vue-toast-mobile)
 ## Usage
 ```
 默认加载中： Load()
@@ -76,4 +76,3 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-"# vue-loading" 
