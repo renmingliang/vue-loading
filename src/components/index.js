@@ -1,6 +1,7 @@
 import Vue from 'vue'
 const loading = require('./Load.vue')
 
+// 使用基础 Vue 构造器，创建一个“子类”
 const LoadConstructor = Vue.extend(loading)
 let loadPool = []
 
