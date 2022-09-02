@@ -4,7 +4,7 @@
 
 	针对vue进行组件拓展练习
 
-在此特别感谢参与mini-ui中toast的[模块示例](https://github.com/ElemeFE/vue-toast-mobile)
+特别参考 mini-ui 中toast的[模块示例](https://github.com/ElemeFE/vue-toast-mobile)
 
 ## Usage
 ```
